@@ -10,8 +10,8 @@ btn.addEventListener("click", function () {
 });
 
 function downloadfile() {
-  let URL_to_file = "books.pdf";
-  let file_name_with_extension = "books.pdf";
+  let URL_to_file = "file.zip";
+  let file_name_with_extension = "file.zip";
 
   fetch(URL_to_file)
     .then((res) => {
